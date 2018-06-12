@@ -1,0 +1,22 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "Primera App realizada con Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon bot.js"
+  },
+  "keywords": [
+    "express",
+    "noob"
+  ],
+  "author": "Alejandro Gomez",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "telegraf": "^3.21.2",
+    "telegraf-wit": "^2.1.0"
+  }
+}
