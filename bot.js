@@ -15,7 +15,7 @@ const expressApp = express()
 const token = '594758646:AAFOOFKbVgjvIuUN92G9WlIIw_I8eqUm9EQ'
 const bot = new Telegraf('594758646:AAFOOFKbVgjvIuUN92G9WlIIw_I8eqUm9EQ')
 expressApp.use(bot.webhookCallback('/secret-path'))
-bot.telegram.setWebhook('https://86a495f1.ngrok.io/secret-path')
+bot.telegram.setWebhook('https://1eec306b.ngrok.io/secret-path')
 expressApp.post('/secret-path', (req,res) => {
   res.json(res)
 })
@@ -99,18 +99,18 @@ bot.command('/whereami', (ctx) => {
 
 
 
- bot.on('photo', (ctx) => {
-   let url = `https://api.telegram.org/bot${token}/getFile?file_id=${ctx.message.photo[2].file_id}`
-   request(url, (err, response, body) =>{
-    let json = JSON.parse(body)
+//  bot.on('photo', (ctx) => {
+//    let url = `https://api.telegram.org/bot${token}/getFile?file_id=${ctx.message.photo[2].file_id}`
+//    request(url, (err, response, body) =>{
+//     let json = JSON.parse(body)
       
-    let url2 = `https://api.telegram.org/file/bot${token}/${json.result.file_path}`
-    let name = json.result.file_path.split('/')[1]
-    download(url2, `./imagenes/${name}`, () => {
-      recognizeImage(`./imagenes/${name}`)
-    })
-   })
- })
+//     let url2 = `https://api.telegram.org/file/bot${token}/${json.result.file_path}`
+//     let name = json.result.file_path.split('/')[1]
+//     download(url2, `./imagenes/${name}`, () => {
+//       recognizeImage(`./imagenes/${name}`)
+//     })
+//    })
+//  })
 
 
 //  const recognizeImage = (path) => {
@@ -123,18 +123,18 @@ bot.command('/whereami', (ctx) => {
 //    })
 //  }
 
- const recognizeImage = (path) => {
-   client.faceDetection(path)
-   .then((results) => {
-     console.log(results[0].faceAnnotations[0].landmarks)
-   })
- }
+//  const recognizeImage = (path) => {
+//    client.faceDetection(path)
+//    .then((results) => {
+//      console.log(results[0].faceAnnotations[0].landmarks)
+//    })
+//  }
 
- var download = function(url2, foto, callback){
-  request.head(url2, function(err, res, body){
-    request(url2).pipe(fs.createWriteStream(foto)).on('close', callback);
-  });
-};
+//  var download = function(url2, foto, callback){
+//   request.head(url2, function(err, res, body){
+//     request(url2).pipe(fs.createWriteStream(foto)).on('close', callback);
+//   });
+// };
 
 
 module.exports = router;

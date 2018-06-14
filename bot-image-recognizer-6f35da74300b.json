@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bot-image-recognizer",
+  "private_key_id": "6f35da74300b895300524102f66a507ba4d2c48a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCm4j9co75u1I9r\n0rUwbrWSf8iJ14Z20koK4lty1s30f2jOKrdsKBTzPO4ZDPcPMAdmrMPkJzs2OSfF\nW1vvM1yFHOVf6l8FA7ctW/z3zKZdKe2xhrhKkCUQMwLC8s9kLjXt5jFtJzUlvGZX\nWHl49lMvOk99dCZCbqq2SVpQ/TrPK7NZI7UvYvQNn/nGwRe9R/050rKUlcFseeI8\nnTr9phWcF7SUYX08dEyE+MfYZyEwgftbri0SCFTF28z028Xx4mvfmQqI7YLFVntG\nJ3b3gmBuJcaFPzz6AQx7uw8tu7OHu9XtMgu1WzEtKhoKgHmGySAcZ+hZz9t+7gaL\n80PoWxEvAgMBAAECggEADrfdhroaTYQJsiS/PipFcUo70Yxkm44oYZVdI1+2gl3K\nTISP8MYIMvuotCTklT5TKMcL789V9Y5M56cLEKmi+0p1IGR3ROXy/dkjEmfGNGlC\nQWn0Tv8vhaI6GB96EwfQUc7/hPT0RwO6svFmpTh0VbH62MGprio8fB80C/iJe0Pm\nwcloTZbSbw4SdgVxadJRBU4r0kZlPBNO6GOGUwxBIxCtf2a6VUaPoVfL+tGHrcdF\nxM/Q8L3pvKGiF2ksohOVSFi6TcBHQD/M+FD1BzIjPixCul2L2E3/yBmCkmzenjOh\nPZraoU3+t+fMlxBMydBUC/y7eohFkTfch4kjVu5JAQKBgQDlQnQa9mgubkKU8UWn\nrc6BQeYvz15Gbu/2yfXVUXrTZs7vkTIeD+tOK1nqoWZD6beiroYJOEFrK3Pr7RGp\nqYQVNn4UX84AkkAjl2JuuE2FfhrJtDZ7a+46qOC7qETC4vHK7iw7Ge4xha6yglqI\nG/2mNEDytVhMuNzZxaBs6JhwYQKBgQC6WUq0T1c/9XGF9Y2Iip1Sh3YdxJZIvnHe\n4ftAiBc7JtqMq9V5N3rHyco124VFepF/S0r2pkYBaEvxozGSTmHpAADNIFPng2JK\nkUZ6gpCx0nqPZBEpd6taUrUA92eoZwl964fXgmsMgL/Ealhw4XG/30Jxgv6NHP2c\nDz2hUNQrjwKBgQCmMATgIqyks7K6Kye2BC0Ez9Nf5u9NGVAD0qTMrJLfuc/aI6Nz\n3VBSSuSUS8lJA5vlZqOs/UWWvVn7tM8v8LzZb7X3aPd4vIuYAT4OSrWPRjl+647u\n6u83QIIgJjsqFr71vq77bLGY3nIj3pBnx/qXx5spFUHb48ncZwEC0ZznIQKBgBQN\nP6ifUPgk5Q5RGeWzZLJYuTEC0lkJhR9CmdKb0kQfLi0s4E+m1KNi50tcT77mLXnR\nFEPuKGJGYsWhldf0bzyvL2bjL6Qd0xnLABZ2rjM0PtPnJKGdquaRN8De3lyUmcTe\n70MVWYeC4x+zgcjDuYW39GJagiGVGQUN7sfI9supAoGBAKO1dNyD4FQZBmnLypg0\nxr8NbBT58I7DK2DeUIKPjFqNkFp4BxVIKXpF7CSuqTsYuk8MFuVWJBSoaHHCA9HD\n4d7hGLxJwDM91f1AFQRTd3TwfQktJiG95Wl2eoaYbigtKv4tYH4Mf67mkTqdMB5k\nGnHeo4evP7nqGdI9HVo6VwBb\n-----END PRIVATE KEY-----\n",
+  "client_email": "nodejs-account@bot-image-recognizer.iam.gserviceaccount.com",
+  "client_id": "107762794034513366976",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nodejs-account%40bot-image-recognizer.iam.gserviceaccount.com"
+}
