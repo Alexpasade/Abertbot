@@ -4,7 +4,7 @@
   "description": "Primera App realizada con Express",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon bot.js"
+    "start": "node bot.js"
   },
   "keywords": [
     "express",
