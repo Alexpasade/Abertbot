@@ -19,7 +19,8 @@ bot.telegram.setWebhook('https://albertbotalex.herokuapp.com/secret-path')
 expressApp.post('/secret-path', (req,res) => {
   res.send('POST')
 })
-expressApp.listen(3000, () => {
+var port = process.env.PORT || 3000;
+expressApp.listen(port, () => {
   console.log('Example app listening on port 3000!')
 })
 bot.start((ctx) => ctx.reply('Hola soy Albert'))
