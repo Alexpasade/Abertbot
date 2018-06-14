@@ -17,7 +17,7 @@ const bot = new Telegraf('594758646:AAFOOFKbVgjvIuUN92G9WlIIw_I8eqUm9EQ')
 expressApp.use(bot.webhookCallback('/secret-path'))
 bot.telegram.setWebhook('https://albertbotalex.herokuapp.com/secret-path')
 expressApp.post('/secret-path', (req,res) => {
-  res.json(res)
+  res.send('POST')
 })
 expressApp.listen(3000, () => {
   console.log('Example app listening on port 3000!')
