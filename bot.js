@@ -25,7 +25,6 @@ expressApp.listen(port, () => {
 })
 bot.start((ctx) => ctx.reply('Hola soy Albert'))
 bot.on('sticker', (ctx) => ctx.reply('👍'))
-bot.hears('Eres pipa?', (ctx) => ctx.reply('Soy alcahuete'))
 bot.command('/creators', ({ reply }) => reply('Los creadores son: Gon, Alex, Ignacio y Jorge'))
 bot.command('/help', ({ reply }) => reply(`mis comandos son: 
   Si necesitas ayuda: /help
@@ -47,7 +46,7 @@ bot.command('/whereami', (ctx) => {
  function getWeather(ctx){
   let numLetras = ctx.update.message.text.indexOf(" ") + 1
   if (numLetras === 0) {
-    ctx.reply('Necesitas especificar una ciudad. Espabila!!!!')
+    ctx.reply('Necesitas especificar una ciudad')
   } else {
     this.ciudad = ctx.update.message.text.substring(numLetras)
      request(`http://api.openweathermap.org/data/2.5/weather?q=${this.ciudad}&APPID=56c96cccbad000054056d2c70263ef25&units=metric&lang=es`, function (error, response, body) {
@@ -72,7 +71,7 @@ bot.command('/whereami', (ctx) => {
 
   let numLetras = ctx.update.message.text.indexOf(" ") + 1
   if (numLetras === 0) {
-    ctx.reply('Necesitas especificar una calle. Espabila!!!!')
+    ctx.reply('Necesitas especificar una calle')
   } else {
     this.direcccion = ctx.update.message.text.substring(numLetras)
     request(`https://geocode.xyz/${this.direcccion}?json=1&auth=989650020275722119459x606`, function (error, response, body) {

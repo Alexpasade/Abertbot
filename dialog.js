@@ -10,7 +10,7 @@ module.exports = (message) => {
                 resolve(frases[Math.round(Math.random()*frases.length)])
             })
         }else{
-            resolve('No te entiendo joder')
+            resolve('No te entiendo')
         }
     })
     
