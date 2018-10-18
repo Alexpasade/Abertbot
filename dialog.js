@@ -13,5 +13,4 @@ module.exports = (message) => {
             resolve('No te entiendo')
         }
     })
-    
 }

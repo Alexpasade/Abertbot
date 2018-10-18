@@ -97,8 +97,6 @@ bot.command('/whereami', (ctx) => {
   })
  })
 
-
-
 //  bot.on('photo', (ctx) => {
 //    let url = `https://api.telegram.org/bot${token}/getFile?file_id=${ctx.message.photo[2].file_id}`
 //    request(url, (err, response, body) =>{
@@ -135,6 +133,5 @@ bot.command('/whereami', (ctx) => {
 //     request(url2).pipe(fs.createWriteStream(foto)).on('close', callback);
 //   });
 // };
-
 
 module.exports = router;
